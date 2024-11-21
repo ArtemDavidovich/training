@@ -1,8 +1,10 @@
 package training;
 
 public class Training {
-    public static void main(String[] args) {
 
-        int num;
+    private int num;
+
+    public Training(int num) {
+        this.num = num;
     }
 }
